@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #fff;
+  color: #222;
+  font: 200 14px "Poppins", sans-serif;
+}
+nav {
+  position: fixed;
+  background-color: #222;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+nav ul {
+  display: inline-block;
+}
+nav ul li {
+  padding-top: 12px;
+}
+h1 {
+  font-size: 42px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 300;
+}
+li {
+  float: left;
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+}
+a:any-link {
+  color: white;
+}
+a:-webkit-any-link:hover {
+  color: crimson;
+}
+a:-moz-any-link {
+  color: white;
+}
+section {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+b {
+  margin-right: 20px;
+}
+/* ids */
+#menu {
+  color: white;
+  list-style: none;
+}
+#inicio:hover {
+  color: #ffc900;
+}
+#logo {
+  padding-top: 0px;
+}
+#personal {
+  list-style: none;
+}
+#educacion {
+  background-color: #222;
+  color: white;
+}
+#estudios {
+  text-align: left;
+  color: white;
+}
+#experiencia {
+  background-color: #222;
+  color: white;
+  border-top: 1px solid #ffc900;
+}
+#habilidad {
+  text-align: left;
+  color: crimson;
+}
+#lista {
+  list-style: none;
+}
+/* Datos personales */
+#datos {
+  display: flex;
+  column-gap: 20px;
+}
+.dato {
+  margin: 10px;
+  padding: 10px;
+}
+.dato iframe {
+  border-radius: 10px;
+}
+#hdato {
+  background-color: #222;
+  color: white;
+  text-align: center;
+}
+/* FIN datos personales */
+/* Card Educación */
+.edu {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-gap: 10px;
+  justify-content: space-between;
+  align-content: space-around;
+}
+.cardedu {
+  background-color: gray;
+  border-radius: 15px;
+  padding: 10px 15px;
+  width: 350px;
+}
+.cardedu img {
+  padding-left: 75px;
+}
+.cardedu h3 {
+  text-align: center;
+  color: #ffc900;
+}
+.cardedu p {
+  text-align: center;
+}
+/* FIN cardeducación */
+/* Enviar comentario */
+#comentario {
+  background-color: aqua;
+}
+.itemform {
+  display: grid;
+  grid-template-columns: 100px 300px;
+  justify-content: right;
+  margin-bottom: 15px;
+}
+.itemform label {
+  font-weight: 700;
+  color: #222;
+}
+input[type="submit"] {
+  background-color: #222;
+  border: 1px solid #222;
+  color: white;
+  padding: 10px;
+  grid-column: 2/3;
+  justify-self: end;
+  border-radius: 5px;
+}
+/* FIN enviar comentario */

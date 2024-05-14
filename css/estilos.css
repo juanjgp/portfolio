@@ -1,0 +1,141 @@
+/* Generales */
+/* Selector universal (Elimina las características de estilos del navegador por defecto) */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #222;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: auto;
+}
+header {
+  margin-left: 200px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+/* FIN Generales */
+/* Barra navegación */
+#barra {
+  float: right;
+}
+li {
+  padding-right: 10px;
+  float: left;
+}
+#navegador {
+  color: white;
+}
+#navegador:hover {
+  color: aqua;
+}
+#lista {
+  list-style: none;
+}
+/* FIN Barra navegación */
+/* Presentación */
+#presentacion {
+  margin-left: 200px;
+}
+/* Para color texto */
+#mastermind {
+  color: crimson;
+}
+/* Fin Presentación */
+/* Habilidades */
+#habilidades {
+  margin-left: 200px;
+  margin-top: 20px;
+}
+#python {
+  color: goldenrod;
+}
+#html {
+  color: coral;
+}
+#css {
+  color: deepskyblue;
+}
+#excel {
+  color: springgreen;
+}
+/* FIN Para color texto */
+/* FIN Habilidades */
+/* Redes */
+#redes {
+  font-size: 24px;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+a:any-link {
+  color: aqua;
+}
+#icono:hover {
+  color: white;
+}
+#linkedln:hover {
+  color: dodgerblue;
+}
+#instagram:hover {
+  color: deeppink;
+}
+/* FIN Redes */
+/* Foto */
+.foto {
+  margin-left: 200px;
+}
+/* FIN Foto */
+.container{
+  float:left;
+  margin-right: 300px;
+
+}
+/* Botón */
+.boton input[type="submit"]{
+  margin-left: 200px;
+  border-radius: 20px;
+  background-color: aqua;
+  color: #222;
+  padding: 10px;
+  font-weight: 900;
+}
+/* FIN Botón */
+/* Formulario */
+#formulario {
+  margin-top: 200px;
+  background-color: aqua;
+  color: #222;
+  padding-left: 200px;
+  padding-bottom: 10px;
+}
+.itemform{
+  display: grid;
+  grid-template-columns: 150px 350px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.itemform label{
+  font-weight: 700;
+}
+.itemform input,.itemform textarea{
+  border-radius: 5px;
+  border: 2px solid #222;
+}
+.itemform input[type="submit"]{
+  background-color: #222;
+  color: #ffc900;
+  padding: 10px;
+  grid-column: 2/3;
+  justify-self: end;
+}
+/* FIN Formulario */
+/* Pie */
+#pie {
+  background-color: #ffc900;
+  color: grey;
+  padding-left: 200px;
+}
+/* FIN Pie */
